@@ -5,34 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>World Clock</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gidole&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-1970-2030.min.js"></script>
 </head>
 <body>
   <div id="container">
-      <header>
+    <header>
       <h1>World Clock</h1>
-      <select name="" id="">
-        <option value="">Choose city</option>
-        <option value="">Johannesburg</option>
-        <option value="">Cape Town</option>
-        <option value="">Durban</option>
+      <select>
+        <option>Choose city..</option>
+        <option>Johannesburg 🇿🇦</option>
+        <option>Cape Town 🇿🇦</option>
+        <option>Durban 🇿🇦</option>
       </select>
-      </header>
+    </header>
       <div>
-        <h2>Santorini</h2>
-        <div>March 31st 2025</div>
-        <div>11:21:56 AM</div>
+        <div id="city-content">
+        <h2 id="city">Santorini <small>🇬🇷</small></h2>
+        <div id="time">11:21:56 <span id="am">AM</span></div>
+        </div>
+        <div id="date">March 31st 2025</div>
       </div>
       <div>
-        <h2>Paris</h2>
-        <div>March 31st 2025</div>
-        <div>11:21:56 AM</div>
+        <div id="city-content">
+        <h2 id="city">New York <small>🇺🇸</small></h2>
+        <div id="time">11:21:56 <span id="am">AM</span></div>
+        </div>
+        <div id="date">March 31st 2025</div>
       </div>
       <div>
-        <h2>New York</h2>
-        <div>March 31st 2025</div>
-        <div>11:21:56 AM</div>
+        <div id="city-content">
+        <h2 id="city">Paris <small>🇫🇷</small></h2>
+        <div id="time">11:21:56 <span id="am">AM</span></div>
+        </div>
+        <div id="date">March 31st 2025</div>
       </div>
-
   </div>
 
   <footer>This project was coded by <a href="https://github.com/Rachel-M09" target="_blank">Rachel Maluleke</a>, is open-sourced on <a href="https://github.com/Rachel-M09/world-clock" target="_blank">Github</a>, and hosted on <a href="https://world-clock-shecodes-project-rae.netlify.app/" target="_blank">Netlify</a></footer>
