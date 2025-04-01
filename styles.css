@@ -47,7 +47,7 @@ select {
     border-radius: 10px;
 }
 
-#city-content {
+.city-content {
     display: flex;
     justify-content: space-between;
 }
@@ -68,6 +68,12 @@ select {
     font-size: small;
     vertical-align: middle;
 }
+
+#border {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+}
+
 
 
 
