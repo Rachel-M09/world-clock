@@ -51,7 +51,11 @@ cities.innerHTML =
 <div id="date">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
     "A"
   )}</small></div>
-</div>`
+</div>
+<div>
+<a href="/" id="link">Back To Home</a>
+</div>
+`
 }
 
 currentTime();

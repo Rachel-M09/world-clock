@@ -74,6 +74,16 @@ select {
     padding-top: 10px;
 }
 
+#link {
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+#link:hover {
+    color: #331940;
+}
+
 
 
 
